@@ -13,6 +13,8 @@
 		976F4E4B20A07B0000299468 /* PraticeXcode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E4920A07B0000299468 /* PraticeXcode.xcdatamodeld */; };
 		976F4E4D20A07B0000299468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976F4E4C20A07B0000299468 /* Assets.xcassets */; };
 		976F4E5020A07B0000299468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976F4E4E20A07B0000299468 /* LaunchScreen.storyboard */; };
+		976F4E5820A07B2100299468 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E5720A07B2100299468 /* TestModel.swift */; };
+		976F4E5A20A17BCB00299468 /* CoreDataHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		976F4E4C20A07B0000299468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		976F4E4F20A07B0000299468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976F4E5120A07B0000299468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976F4E5720A07B2100299468 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandeler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				976F4E4E20A07B0000299468 /* LaunchScreen.storyboard */,
 				976F4E5120A07B0000299468 /* Info.plist */,
 				976F4E4920A07B0000299468 /* PraticeXcode.xcdatamodeld */,
+				976F4E5720A07B2100299468 /* TestModel.swift */,
+				976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */,
 			);
 			path = PraticeXcode;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 				976F4E4520A07B0000299468 /* ViewController.swift in Sources */,
 				976F4E4B20A07B0000299468 /* PraticeXcode.xcdatamodeld in Sources */,
 				976F4E4320A07B0000299468 /* AppDelegate.swift in Sources */,
+				976F4E5820A07B2100299468 /* TestModel.swift in Sources */,
+				976F4E5A20A17BCB00299468 /* CoreDataHandeler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PraticeXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.c1x.PraticeXcode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.c1x.CoredataExemple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PraticeXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.c1x.PraticeXcode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.c1x.CoredataExemple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
