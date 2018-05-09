@@ -15,6 +15,7 @@
 		976F4E5020A07B0000299468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976F4E4E20A07B0000299468 /* LaunchScreen.storyboard */; };
 		976F4E5820A07B2100299468 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E5720A07B2100299468 /* TestModel.swift */; };
 		976F4E5A20A17BCB00299468 /* CoreDataHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */; };
+		976F4E7D20A2DB6A00299468 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976F4E7C20A2DB6A00299468 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		976F4E5120A07B0000299468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		976F4E5720A07B2100299468 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandeler.swift; sourceTree = "<group>"; };
+		976F4E7C20A2DB6A00299468 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				976F4E4920A07B0000299468 /* PraticeXcode.xcdatamodeld */,
 				976F4E5720A07B2100299468 /* TestModel.swift */,
 				976F4E5920A17BCB00299468 /* CoreDataHandeler.swift */,
+				976F4E7C20A2DB6A00299468 /* DataManager.swift */,
 			);
 			path = PraticeXcode;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976F4E4520A07B0000299468 /* ViewController.swift in Sources */,
+				976F4E7D20A2DB6A00299468 /* DataManager.swift in Sources */,
 				976F4E4B20A07B0000299468 /* PraticeXcode.xcdatamodeld in Sources */,
 				976F4E4320A07B0000299468 /* AppDelegate.swift in Sources */,
 				976F4E5820A07B2100299468 /* TestModel.swift in Sources */,
